@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.11.1/p5.js"></script>
+    <script src="https://unpkg.com/ml5@1/dist/ml5.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <main>
+      <video class="video" id="idle" muted loop src="/media/idle_animation.mp4"></video>
+      <video class="video" id="blue" muted src="/media/blue_mask.mp4"></video>
+      <video class="video" id="orange" muted src="/media/orange_mask.mp4"></video>
+      <video class="video" id="pink" muted src="/media/pink_mask.mp4"></video>
+      <div id="p5js-wrapper">
+        <!-- The p5js cancas will be rendered here! -->
+      </div>
+    </main>
+    <script src="sketch.js"></script>
+  </body>
+</html>
